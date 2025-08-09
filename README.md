@@ -27,6 +27,30 @@ This project contains automated end-to-end tests using Cypress for a React Ecomm
 
 ---
 
+## Running React ecommerce locally
+
+### Installation
+1. Clone this repository:
+   ```sh
+   git clone https://dredsoftlabs-admin@bitbucket.org/dredsoftlabs/ecommerce.git
+   cd ecommerce
+   ```
+2. Install dependencies:
+   ```sh
+   npm install 
+   or 
+   npm install react-material-ui-carousel --save --legacy-peer-deps
+   ```
+3. Start the server
+   ```sh
+   npm start
+   ```
+4. The server should now be running. You can access the application by opening a web browser and entering the following URL:
+   ```sh
+   http://localhost:3000
+   ```
+---
+
 ## Running Cypress Tests
 
 ### Open Cypress Test Runner (GUI)
